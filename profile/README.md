@@ -51,6 +51,17 @@ Enfocado en el desarrollo de soluciones biomédicas basadas en impresión 3D, in
 
 ---
 
+## 👨‍🎓 Integrantes del proyecto
+Este proyecto se encuentra en desarrollo por el siguiente equipo:
+
+* **Samuel David Sánchez Cárdenas**: [Rol]
+* **Paula Valentina Álvarez Chaparro**: [Rol]
+* **Daniel Castillo Silva**: [Rol]
+* **Óscar Andrés Guzmán Vázquez**: [Rol]
+* **Sebastián Sánchez Mesa**: [Rol]
+
+---
+
 ## 📎 Cómo usar los modelos
 
 1. Descarga este repositorio.
