@@ -1,86 +1,117 @@
-# Protsen
+<!--- 
+README para la organización PROTOS en GitHub.
+Incluye HTML/CSS para widgets y animaciones sutiles.
+Los espacios para información de PROTOS (web, Instagram, etc.) se dejan como [Próximamente].
+-->
 
-Proyecto desarrollado por el grupo estudiantil **Protos UN** de Bioingeniería, enfocado en el estudio del efecto de protuberancias óseas en un muñón mediante la creación, calibración y desarrollo de sensores FSR capaces de medir la presión ejercida por dichas protuberancias.
+<p align="center">
+  <img src="https://img.shields.io/badge/Universidad_Nacional_de_Colombia-Bogotá-FF0000?style=for-the-badge&logo=googlechrome&logoColor=white" alt="UNAL">
+  <img src="https://img.shields.io/badge/Grupo_KYMA-Investigación-005C8A?style=for-the-badge" alt="KYMA">
+  <img src="https://img.shields.io/badge/Semillero_PROTOS-Bioingeniería-4CAF50?style=for-the-badge" alt="PROTOS">
+</p>
 
----
+<h1 align="center">
+  <span style="background: linear-gradient(135deg, #4CAF50, #005C8A); -webkit-background-clip: text; background-clip: text; color: transparent;">PROTOS</span>
+  <br>
+  <span style="font-size: 1.2rem;">Semillero de Investigación en Bioingeniería y Rehabilitación</span>
+</h1>
 
-## 📌 Objetivo
-Diseñar, fabricar y validar un sistema experimental que permita **medir la presión** que generan las protuberancias óseas sobre un muñón protésico, integrando:
-- Modelos 3D anatómicos impresos.
-- Sensores FSR calibrados.
-- Protocolos de prueba para análisis biomecánico.
-
----
-
-## 🏗️ Contenido del repositorio
-
-- **`3D-Models/`** → Carpeta con los modelos CAD y STL.
-  - **Fibular head** → Modelos de la cabeza del peroné (5mm, 10mm, 15mm, flat).
-  - **Lateral tibia** → Modelos de tibia lateral en distintas dimensiones.
-  - **Medial tibia** → Modelos de tibia medial.
-  - **Tibial tuberosity** → Variaciones de la tuberosidad tibial.
-  - **Printing stump.stl** → Modelo de muñón para impresión.
-- **Archivos `.ipt`** → Modelos paramétricos en Autodesk Inventor.
-- **Archivos `.stl`** → Listos para impresión 3D.
-- **Subcarpeta "3D models for printing"** → Conjunto de modelos preparados para manufactura aditiva.
+<p align="center">
+  <i>Soluciones tecnológicas de bajo costo, código abierto y con impacto social.</i>
+</p>
 
 ---
 
-## ⚙️ Requerimientos
+## ¿Quiénes somos?
 
-- **Software CAD**: Autodesk Inventor / Fusion 360 (para modificar `.ipt`).
-- **Impresora 3D**: Capaz de procesar archivos `.stl`.
-- **Material recomendado**: PLA o ABS para prototipado inicial.
-- **Sensores**: FSR (Force Sensitive Resistor) calibrados.
-
----
-
-## 📐 Metodología
-
-1. **Diseño CAD** → Modelado de protuberancias óseas en Inventor.
-2. **Impresión 3D** → Fabricación del muñón y protuberancias.
-3. **Integración de sensores FSR** → Colocación en zonas críticas.
-4. **Calibración y pruebas** → Registro de datos de presión.
-5. **Análisis** → Estudio de la distribución de fuerzas ejercidas.
+Semillero adscrito al **grupo KYMA** de la Facultad de Ingeniería, Universidad Nacional de Colombia – Sede Bogotá.  
+Desarrollamos prótesis, dispositivos de rehabilitación, instrumentación médica y sistemas de sensado, integrando diseño CAD, manufactura aditiva, electrónica y control.  
+Todos nuestros proyectos son reproducibles, documentados y de acceso libre.
 
 ---
 
-## 👩‍🔬 Grupo de investigación
-**Protos UN** – Grupo estudiantil de Bioingeniería, Universidad Nacional de Colombia.  
-Enfocado en el desarrollo de soluciones biomédicas basadas en impresión 3D, instrumentación electrónica y análisis biomecánico.
+## Líneas de investigación
+
+- Control y Robótica  
+- Sensores  
+- Adaptación y Desarrollo de Instrumentación  
 
 ---
 
-## 👨‍🎓 Integrantes del proyecto
-Este proyecto se encuentra en desarrollo por el siguiente equipo:
+## Proyectos activos
 
-* **Samuel David Sánchez Cárdenas**: [Rol]
-* **Paula Valentina Álvarez Chaparro**: [Rol]
-* **Daniel Castillo Silva**: [Rol]
-* **Óscar Andrés Guzmán Vázquez**: [Rol]
-* **Sebastián Sánchez Mesa**: [Rol]
-
----
-
-## 📎 Cómo usar los modelos
-
-1. Descarga este repositorio.
-2. Abre la carpeta `3D-Models/`.
-3. Selecciona los archivos `.stl` para impresión directa o `.ipt` si deseas modificarlos.
-4. Escala e imprime según tus requerimientos.
-5. Integra sensores FSR en las zonas indicadas.
+| Proyecto | Descripción breve |
+|----------|-------------------|
+| **SOMA** | Prótesis transtibial de bajo costo mediante termoformado y alianza con Fundación CIREC. |
+| **MANUS** | Mano biónica modular open-source (transmisión por tensión, servomotores). |
+| **CARPO** | Rehabilitación asistida de muñeca (4 DOF), con GUI de telemetría y seguridad. |
+| **PNEUMA** | Servo ventilador de emergencia basado en Raspberry Pi y sensores de flujo/presión. |
+| **PROTSEN** | Sensorización de presión en socket protésico con modelos 3D anatómicos y FSR calibrados. |
 
 ---
 
-## 📜 Licencia
-Este proyecto se distribuye bajo la licencia MIT.  
-Sientete libre de usar, modificar y compartir, dando el crédito correspondiente al grupo **Protos UN**.
+## Equipo
+
+> Los campos en blanco se actualizarán próximamente.  
+> **GitHub personal de cada miembro** se agrega cuando está disponible.
+
+| Miembro | Rol / Proyecto | GitHub |
+|---------|----------------|--------|
+| Samuel David Sánchez Cárdenas | Líder técnico (PNEUMA / PROTSEN) | [samsanchezcar](https://github.com/samsanchezcar) |
+| Oscar Andrés Guzmán Vásquez | CAD e impresión 3D (SOMA / PROTSEN) | *[por definir]* |
+| Paula Valentina Álvarez Chaparro | Diseño CAD (MANUS / PROTSEN) | *[por definir]* |
+| Daniel Castillo Silva | Diseño mecánico (CARPO / PROTSEN) | *[por definir]* |
+| Sebastián Sánchez Mesa | Electrónica y firmware (CARPO / PROTSEN) | *[por definir]* |
+| Emely [apellido] | Coordinación general | *[por definir]* |
+
+**Director del semillero:** Luis Miguel Méndez Moreno (docente de planta)
 
 ---
 
-## 📬 Contacto
-Si quieres conocer más sobre este proyecto o colaborar:  
-📧 protosun@unal.edu.co  
-🌐 [Grupo Protos UN](https://github.com/Protos-UN)  
+## Enlaces de interés
+
+### Grupo KYMA
+
+- GitHub: [kyma-un](https://github.com/kyma-un)
+- Sitio web: [kyma-un.github.io](https://kyma-un.github.io)
+- Instagram: [@kyma_unal](https://www.instagram.com/kyma_unal/)
+- Correo: `kymafi_bog@unal.edu.co`
+
+### Semillero PROTOS
+
+- GitHub: *[Próximamente – será https://github.com/Protos-UN]*
+- Sitio web: *[Próximamente]*
+- Instagram: *[Próximamente]*
+- Correo: `protosun_bog@unal.edu.co`
 
 ---
+
+## Widgets y estadísticas
+
+<p align="center">
+  <img src="https://img.shields.io/github/stars/Protos-UN?style=social&label=Estrellas%20del%20semillero" alt="GitHub stars placeholder">
+  <img src="https://img.shields.io/github/issues/Protos-UN?style=flat-square&label=Issues" alt="Issues placeholder">
+  <img src="https://img.shields.io/badge/contributors-5-blue" alt="Contributors">
+</p>
+
+---
+
+## ¿Cómo participar?
+
+La vinculación de nuevos integrantes se abre **dos veces por semestre**.  
+Los aspirantes diligencian un formulario de postulación donde manifiestan intereses, disponibilidad y habilidades.  
+Los seleccionados son asignados al proyecto más adecuado a su perfil.
+
+Para más información, escríbenos a: `protosun_bog@unal.edu.co`
+
+---
+
+## Licencia
+
+Los proyectos de PROTOS están bajo **Licencia MIT**, a menos que se indique lo contrario en cada repositorio.
+
+---
+
+<p align="center">
+  <sub>Hecho con ❤️ desde la Universidad Nacional de Colombia – Semillero PROTOS · Grupo KYMA</sub>
+</p>
