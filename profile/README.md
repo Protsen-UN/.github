@@ -1,304 +1,163 @@
-<!---
-README para la organización PROTOS en GitHub.
-Estilo inspirado en el perfil de samsanchezcar.
-Los placeholders (imágenes, GIFs, estadísticas) deben ser reemplazados por los assets del semillero.
--->
-
 <div align="center">
 
-<!-- Header y divider - reemplazar con assets propios si se desea -->
-<img src="https://via.placeholder.com/1200x200/0d0d1a/A78BFA?text=PROTOS+Semillero+de+Investigación" width="100%" alt="Header PROTOS"/>
-<hr style="border: 1px solid #A78BFA; width: 100%;"/>
-
-<br/>
-
-<!-- Badges de contacto (grupo KYMA y semillero) -->
-<a href="mailto:kymafi_bog@unal.edu.co"><img src="https://img.shields.io/badge/KYMA_Email-0d0d1a?style=for-the-badge&logo=gmail&logoColor=EA4335"/></a>
-<a href="https://github.com/kyma-un"><img src="https://img.shields.io/badge/KYMA_GitHub-0d0d1a?style=for-the-badge&logo=github&logoColor=DDD6FE"/></a>
-<a href="https://kyma-un.github.io"><img src="https://img.shields.io/badge/KYMA_Web-0d0d1a?style=for-the-badge&logo=google-chrome&logoColor=67e8f9"/></a>
-<a href="https://www.instagram.com/kyma_unal/"><img src="https://img.shields.io/badge/KYMA_Instagram-0d0d1a?style=for-the-badge&logo=instagram&logoColor=E1306C"/></a>
-
-<br/><br/>
-
-<!-- Badges de PROTOS (placeholders) -->
-<a href="mailto:protosun_bog@unal.edu.co"><img src="https://img.shields.io/badge/PROTOS_Email-0d0d1a?style=for-the-badge&logo=gmail&logoColor=EA4335"/></a>
-<a href="#"><img src="https://img.shields.io/badge/PROTOS_GitHub-0d0d1a?style=for-the-badge&logo=github&logoColor=DDD6FE"/></a>
-<a href="#"><img src="https://img.shields.io/badge/PROTOS_Web-0d0d1a?style=for-the-badge&logo=google-chrome&logoColor=67e8f9"/></a>
-<a href="#"><img src="https://img.shields.io/badge/PROTOS_Instagram-0d0d1a?style=for-the-badge&logo=instagram&logoColor=E1306C"/></a>
-
-<br/>
-
-<!-- Contador de visitas (placeholder) -->
-<img src="https://komarev.com/ghpvc/?username=Protos-UN&style=flat-square&color=7c3aed&label=Visitas+al+Semillero"/>
-
-<br/><br/>
+<img src="https://raw.githubusercontent.com/Protsen-UN/assets/main/banners/banner_main.svg" alt="PROTOS — Semillero de Bioingeniería" width="100%"/>
 
 </div>
 
----
-
-<table>
-<tr>
-<td width="64%" valign="top">
-
-## 🌍 Quiénes somos
-
-<details open>
-<summary><b>🇪🇸 Español</b></summary>
-
-**PROTOS** es un semillero de investigación de la Facultad de Ingeniería de la Universidad Nacional de Colombia, adscrito al **grupo KYMA**. Nos especializamos en el desarrollo de soluciones tecnológicas de bajo costo orientadas a la salud y la rehabilitación: prótesis, dispositivos de rehabilitación asistida, instrumentación médica y sistemas de sensado. Todos nuestros proyectos son de código abierto, reproducibles y con impacto social.
-
-Trabajamos en alianza con la **Fundación CIREC** y otras entidades del sector salud para validar clínicamente nuestros desarrollos.
-
-### Líneas de investigación
-
-- **Control y Robótica**
-- **Sensores**
-- **Adaptación y Desarrollo de Instrumentación**
-
-### Objetivo general
-
-Desarrollar capacidades técnicas e investigativas en estudiantes de ingeniería mediante la ejecución de proyectos de impacto social en bioingeniería y rehabilitación, integrando diseño CAD, manufactura aditiva, electrónica y control en soluciones funcionales, documentadas y transferibles.
-
-</details>
-
-<details>
-<summary><b>🇬🇧 English</b></summary>
-
-**PROTOS** is a student research group (semillero) at the Faculty of Engineering, National University of Colombia, part of the **KYMA** research group. We develop low-cost technological solutions for health and rehabilitation: prosthetics, assisted rehabilitation devices, medical instrumentation, and sensing systems. All our projects are open-source, reproducible, and socially impactful.
-
-We partner with **Fundación CIREC** and other health institutions for clinical validation.
-
-### Research lines
-
-- **Control & Robotics**
-- **Sensors**
-- **Instrumentation Adaptation & Development**
-
-### General objective
-
-Develop technical and research skills in engineering students through socially impactful projects in bioengineering and rehabilitation, integrating CAD design, additive manufacturing, electronics, and control into functional, documented, and transferable solutions.
-
-</details>
-
-<br/>
-
-## 📊 Estado del semillero
-
-<div align="center">
-  <!-- Placeholder para estadísticas - reemplazar cuando la organización tenga repositorios -->
-  <img src="https://img.shields.io/badge/Proyectos_Activos-5-7C3AED?style=for-the-badge&labelColor=0d0d1a"/>
-  <img src="https://img.shields.io/badge/Miembros-7-22d3ee?style=for-the-badge&labelColor=0d0d1a"/>
-  <img src="https://img.shields.io/badge/Repositorios_Públicos-0-6D28D9?style=for-the-badge&labelColor=0d0d1a"/>
-  <br/>
-  <img src="https://img.shields.io/badge/Última_Actualización-Marzo_2026-0891b2?style=for-the-badge&labelColor=0d0d1a"/>
-</div>
-
-<br/>
-
-## 🚀 Proyectos activos
-
 <div align="center">
 
-| Proyecto | Descripción | Tecnologías |
-|----------|-------------|--------------|
-| **SOMA** | Prótesis transtibial de bajo costo mediante termoformado y manufactura aditiva. Alianza con CIREC. | Fusion 360, impresión 3D, termoformado |
-| **MANUS** | Mano biónica modular open-source, transmisión por tensión, servomotores, grados de libertad configurables. | CAD, electrónica, servomotores |
-| **CARPO** | Dispositivo de rehabilitación de muñeca (4 DOF) con control, telemetría y GUI segura. | ESP32, firmware, Qt/Python |
-| **PNEUMA** | Servo ventilador de emergencia basado en Raspberry Pi, sensores de flujo/presión/volumen. | Raspberry Pi, Python, sensores |
-| **PROTSEN** | Sensorización de presión en socket protésico usando modelos 3D anatómicos y sensores FSR calibrados. | FSR, acondicionamiento, CAD paramétrico |
+[![Universidad Nacional de Colombia](https://img.shields.io/badge/UNAL-Facultad%20de%20Ingenier%C3%ADa-11509A?style=flat-square&labelColor=EEF4FF&color=11509A)](https://unal.edu.co)
+[![Grupo KYMA](https://img.shields.io/badge/Grupo-KYMA-11509A?style=flat-square&labelColor=EEF4FF&color=11509A)](https://unal.edu.co)
+[![Sede Bogotá](https://img.shields.io/badge/Sede-Bogot%C3%A1-11509A?style=flat-square&labelColor=EEF4FF&color=11509A)](https://unal.edu.co)
+[![MIT License](https://img.shields.io/badge/Licencia-MIT-11509A?style=flat-square&labelColor=EEF4FF&color=11509A)](LICENSE)
+[![Contacto](https://img.shields.io/badge/Email-protosun__bog%40unal.edu.co-11509A?style=flat-square&labelColor=EEF4FF&color=11509A)](mailto:protosun_bog@unal.edu.co)
 
 </div>
 
 <br/>
 
-## 👥 Equipo
+<div align="center">
+<img src="https://raw.githubusercontent.com/Protsen-UN/assets/main/dividers/divider_signal.svg" width="100%"/>
+</div>
 
-| Miembro | Rol / Proyecto principal | GitHub |
-|---------|--------------------------|--------|
-| Samuel David Sánchez Cárdenas | Líder técnico (PNEUMA, PROTSEN) | [samsanchezcar](https://github.com/samsanchezcar) |
-| Oscar Andrés Guzmán Vásquez | CAD e impresión 3D (SOMA, PROTSEN) | *[por definir]* |
-| Paula Valentina Álvarez Chaparro | Diseño CAD (MANUS, PROTSEN) | *[por definir]* |
-| Daniel Castillo Silva | Diseño mecánico (CARPO, PROTSEN) | *[por definir]* |
-| Sebastián Sánchez Mesa | Electrónica y firmware (CARPO, PROTSEN) | *[por definir]* |
-| Emely [apellido] | Coordinación general | *[por definir]* |
+## ¿Quiénes somos?
 
-**Director:** Luis Miguel Méndez Moreno (docente de planta)
+**PROTOS** es el semillero de investigación en bioingeniería de la **Facultad de Ingeniería** de la Universidad Nacional de Colombia, adscrito al **Grupo KYMA**. Desarrollamos soluciones tecnológicas de bajo costo orientadas a la salud y la rehabilitación, articulando diseño CAD, manufactura aditiva, electrónica y control en proyectos con impacto social real.
 
-</td>
+Nuestro trabajo integra cuatro áreas temáticas: **prótesis accesibles**, **rehabilitación asistida**, **dispositivos biomecánicos** e **instrumentación médica**. Cada proyecto genera entregables documentados y transferibles — repositorios, manuales, protocolos y evidencias — disponibles como código abierto para la comunidad académica.
 
-<td width="36%" valign="top">
+> *"Desde la academia es posible construir soluciones tecnológicas rigurosas con impacto social real."*
 
-## 🛠️ Stack tecnológico
+<div align="center">
+<img src="https://raw.githubusercontent.com/Protsen-UN/assets/main/dividers/divider_dots.svg" width="100%"/>
+</div>
 
-### Software y lenguajes
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=c,cpp,python,matlab,julia&perline=5&theme=dark" />
-</p>
+## Proyectos activos
 
-### Herramientas de desarrollo
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=git,github,vscode,arduino,linux&perline=5&theme=dark" />
-</p>
+<br/>
 
-### CAD y diseño
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=autocad,blender,ps,ai,figma&perline=5&theme=dark" />
-</p>
+<div align="center">
+<img src="https://raw.githubusercontent.com/Protsen-UN/assets/main/banners/banner_soma.svg" alt="Proyecto SOMA" width="100%"/>
+</div>
 
-### Especializadas
-<p align="center">
-  <img src="https://img.shields.io/badge/ROS_2-1a1a2e?style=flat-square&logo=ros&logoColor=A78BFA" />
-  <img src="https://img.shields.io/badge/Fusion_360-1a1a2e?style=flat-square&logo=autodesk&logoColor=C4B5FD" />
-  <img src="https://img.shields.io/badge/ESP32-1a1a2e?style=flat-square&logo=espressif&logoColor=E7352C" />
-  <img src="https://img.shields.io/badge/Simulink-1a1a2e?style=flat-square&logo=mathworks&logoColor=0076A8" />
-  <img src="https://img.shields.io/badge/KiCad-1a1a2e?style=flat-square&logo=kicad&logoColor=314CB6" />
-</p>
+Diseño, fabricación y validación de sockets protésicos transtibiales mediante **manufactura aditiva con materiales técnicos** (PP, TPU) y **termoformado convencional**, en alianza técnica con la **Fundación CIREC**. El proceso integra modelado CAD paramétrico, fabricación de moldes en yeso y retroalimentación clínica continua.
 
-## 🏆 Logros
+| | |
+|:---|:---|
+| **Área** | Prótesis · Manufactura aditiva |
+| **Materiales** | PP · TPU · Yeso |
+| **Herramientas** | Fusion 360 · Impresión 3D · Termoformado |
+| **Aliado** | Fundación CIREC |
+| **Resultado clave** | ≥ 2 iteraciones de socket evaluadas clínicamente |
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Alianza_CIREC-Validación_Clínica-7C3AED?style=for-the-badge&labelColor=0d0d1a"/>
-  <br/>
-  <img src="https://img.shields.io/badge/Proyectos_Código_Abierto-Reproducibilidad-22d3ee?style=for-the-badge&labelColor=0d0d1a"/>
-  <br/>
-  <img src="https://img.shields.io/badge/Formación_Temprana-Nuevos_Integrantes_cada_semestre-6D28D9?style=for-the-badge&labelColor=0d0d1a"/>
-</p>
+<div align="center">
+<img src="https://raw.githubusercontent.com/Protsen-UN/assets/main/dividers/divider_line.svg" width="100%"/>
+</div>
 
-## 🎯 Enfoque actual
+<br/>
 
-**Objetivos 2026-1**
-- **SOMA:** segunda iteración de socket transtibial validado con CIREC.
-- **MANUS:** prototipo funcional con al menos 5 DOF.
-- **CARPO:** prototipo operativo con GUI y verificación de seguridad.
-- **PNEUMA:** integración completa de sensores y control básico.
-- **PROTSEN:** mapas de presión para cuatro zonas óseas.
+<div align="center">
+<img src="https://raw.githubusercontent.com/Protsen-UN/assets/main/banners/banner_manus.svg" alt="Proyecto MANUS" width="100%"/>
+</div>
 
-**Próximas convocatorias de vinculación**
-- Inicio de semestre (agosto 2026)
-- Mitad de semestre (octubre 2026)
+Desarrollo de una **mano protésica modular de código abierto** basada en transmisión por tensión y actuadores servo, explorable desde 3 hasta 27 grados de libertad. Diseñada para investigación, prototipado y educación en ingeniería de rehabilitación.
 
-## 📫 Conecta con PROTOS
+| | |
+|:---|:---|
+| **Área** | Robótica · Diseño biomecánico |
+| **Actuación** | Servos · Transmisión por tensión |
+| **Herramientas** | Fusion 360 · Impresión 3D · Arduino |
+| **DOF** | 3 a 27 configurables |
+| **Resultado clave** | Prototipo funcional ≥ 5 DOF + repositorio CAD abierto |
 
-<p align="center">
-  <a href="mailto:protosun_bog@unal.edu.co"><img src="https://img.shields.io/badge/Email-0d0d1a?style=for-the-badge&logo=gmail&logoColor=EA4335"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/GitHub-0d0d1a?style=for-the-badge&logo=github&logoColor=DDD6FE"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Web-0d0d1a?style=for-the-badge&logo=google-chrome&logoColor=67e8f9"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Instagram-0d0d1a?style=for-the-badge&logo=instagram&logoColor=E1306C"/></a>
-</p>
+<div align="center">
+<img src="https://raw.githubusercontent.com/Protsen-UN/assets/main/dividers/divider_line.svg" width="100%"/>
+</div>
 
-</td>
-</tr>
-</table>
+<br/>
 
----
+<div align="center">
+<img src="https://raw.githubusercontent.com/Protsen-UN/assets/main/banners/banner_carpo.svg" alt="Proyecto CARPO" width="100%"/>
+</div>
 
-## 🧪 Proyectos destacados
+Dispositivo de **rehabilitación asistida de muñeca y antebrazo** con 4 grados de libertad, actuado por motores paso a paso con control de posición/velocidad, telemetría inalámbrica y GUI de supervisión segura. Incluye E-stop de hardware y límites de posición configurables.
+
+| | |
+|:---|:---|
+| **Área** | Rehabilitación · Control · Electrónica |
+| **Actuación** | Motores paso a paso · Encoders |
+| **Control** | ESP32 · Firmware embebido |
+| **Interfaz** | GUI de telemetría · Registro de sesión |
+| **Resultado clave** | Prototipo operativo en banco + presentación PGP 2026 |
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/Protsen-UN/assets/main/dividers/divider_line.svg" width="100%"/>
+</div>
+
+<br/>
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/Protsen-UN/assets/main/banners/banner_pneuma.svg" alt="Proyecto PNEUMA" width="100%"/>
+</div>
+
+Sistema de **ventilación mecánica de emergencia de bajo costo** con monitoreo continuo de flujo, presión y volumen tidal, integrado con electroválvulas y control embebido sobre **Raspberry Pi 4**. Desarrollado en colaboración con el grupo KYMA, con énfasis en reproducibilidad y documentación técnica rigurosa.
+
+| | |
+|:---|:---|
+| **Área** | Instrumentación médica · Sistemas embebidos |
+| **Sensores** | Flujo · Presión · Volumen |
+| **Plataforma** | Raspberry Pi 4 · PCB KiCad |
+| **Control** | Lazo abierto/cerrado · Electroválvulas |
+| **Resultado clave** | Sistema de adquisición validado + repositorio GitHub documentado |
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/Protsen-UN/assets/main/dividers/divider_signal.svg" width="100%"/>
+</div>
+
+## Líneas de investigación
+
+Alineadas con el **Grupo KYMA** y la **Facultad de Ingeniería — UNAL**:
+
+```
+CONTROL Y ROBÓTICA          ·   Actuadores, servo-sistemas, lazos de control
+SENSORES                    ·   Señales biomédicas, flujo, presión, EMG
+INSTRUMENTACIÓN MÉDICA      ·   Diseño de dispositivos, PCB, firmware embebido
+MANUFACTURA ADITIVA         ·   PP · TPU · ABS · PETG — materiales técnicos
+```
+
+**ODS principales:** 🏥 ODS 3 — Salud y bienestar &nbsp;|&nbsp; ⚙️ ODS 9 — Industria e innovación
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/Protsen-UN/assets/main/dividers/divider_dots.svg" width="100%"/>
+</div>
+
+## Herramientas y flujo de trabajo
 
 <div align="center">
 
-<i>🔗 Haz clic en cada demo para ir al repositorio (próximamente disponibles)</i>
-
-<br/><br/>
-
-<table>
-<tr>
-<td align="center" width="50%">
-
-### 🦶 SOMA — Socket transtibial de bajo costo
-
-Modelado CAD, fabricación de moldes en yeso, termoformado y validación clínica con CIREC.
-
-[![Demo SOMA](https://via.placeholder.com/400x200/0d0d1a/A78BFA?text=Demo+SOMA)](https://github.com/Protos-UN/SOMA)
-
-<img src="https://img.shields.io/badge/Fusion_360-0d0d1a?style=flat-square&logo=autodesk&logoColor=C4B5FD"/>
-<img src="https://img.shields.io/badge/Termoformado-0d0d1a?style=flat-square&logoColor=67e8f9"/>
-
-**[📂 Ver repositorio →](https://github.com/Protos-UN/SOMA)**
-
-</td>
-<td align="center" width="50%">
-
-### 🦾 MANUS — Mano biónica open-source
-
-Mano modular con transmisión por tensión y servomotores, configurable de 3 a 27 grados de libertad.
-
-[![Demo MANUS](https://via.placeholder.com/400x200/0d0d1a/A78BFA?text=Demo+MANUS)](https://github.com/Protos-UN/MANUS)
-
-<img src="https://img.shields.io/badge/CAD-0d0d1a?style=flat-square&logo=autodesk&logoColor=C4B5FD"/>
-<img src="https://img.shields.io/badge/Arduino-0d0d1a?style=flat-square&logo=arduino&logoColor=67e8f9"/>
-
-**[📂 Ver repositorio →](https://github.com/Protos-UN/MANUS)**
-
-</td>
-</tr>
-<tr>
-<td align="center" width="50%">
-
-### 🦾 CARPO — Rehabilitación de muñeca 4-DOF
-
-Dispositivo asistido con actuadores paso a paso, control de posición/velocidad, telemetría y GUI.
-
-[![Demo CARPO](https://via.placeholder.com/400x200/0d0d1a/A78BFA?text=Demo+CARPO)](https://github.com/Protos-UN/CARPO)
-
-<img src="https://img.shields.io/badge/ESP32-0d0d1a?style=flat-square&logo=espressif&logoColor=E7352C"/>
-<img src="https://img.shields.io/badge/Qt-0d0d1a?style=flat-square&logo=qt&logoColor=67e8f9"/>
-
-**[📂 Ver repositorio →](https://github.com/Protos-UN/CARPO)**
-
-</td>
-<td align="center" width="50%">
-
-### 💨 PNEUMA — Servo ventilador de emergencia
-
-Sistema de adquisición de flujo/presión/volumen con Raspberry Pi y control embebido.
-
-[![Demo PNEUMA](https://via.placeholder.com/400x200/0d0d1a/A78BFA?text=Demo+PNEUMA)](https://github.com/Protos-UN/PNEUMA)
-
-<img src="https://img.shields.io/badge/Raspberry_Pi-0d0d1a?style=flat-square&logo=raspberrypi&logoColor=67e8f9"/>
-<img src="https://img.shields.io/badge/Python-0d0d1a?style=flat-square&logo=python&logoColor=A78BFA"/>
-
-**[📂 Ver repositorio →](https://github.com/Protos-UN/PNEUMA)**
-
-</td>
-</tr>
-<tr>
-<td align="center" width="50%" colspan="2">
-
-### 📊 PROTSEN — Sensorización de presión en socket
-
-Modelos 3D de protuberancias óseas, sensores FSR calibrados y mapas de presión para optimización de sockets.
-
-[![Demo PROTSEN](https://via.placeholder.com/800x200/0d0d1a/A78BFA?text=Demo+PROTSEN)](https://github.com/Protos-UN/PROTSEN)
-
-<img src="https://img.shields.io/badge/FSR-0d0d1a?style=flat-square&logoColor=67e8f9"/>
-<img src="https://img.shields.io/badge/Inventor-0d0d1a?style=flat-square&logo=autodesk&logoColor=C4B5FD"/>
-<img src="https://img.shields.io/badge/Arduino-0d0d1a?style=flat-square&logo=arduino&logoColor=A78BFA"/>
-
-**[📂 Ver repositorio →](https://github.com/Protos-UN/PROTSEN)**
-
-</td>
-</tr>
-</table>
+![Fusion 360](https://img.shields.io/badge/CAD-Fusion%20360-11509A?style=flat-square&labelColor=EEF4FF)
+![KiCad](https://img.shields.io/badge/PCB-KiCad-11509A?style=flat-square&labelColor=EEF4FF)
+![Arduino/ESP32](https://img.shields.io/badge/Firmware-Arduino%20%2F%20ESP32-11509A?style=flat-square&labelColor=EEF4FF)
+![Raspberry Pi](https://img.shields.io/badge/SBC-Raspberry%20Pi%204-11509A?style=flat-square&labelColor=EEF4FF)
+![GitHub](https://img.shields.io/badge/Control-GitHub-11509A?style=flat-square&labelColor=EEF4FF)
+![ClickUp](https://img.shields.io/badge/PM-ClickUp-11509A?style=flat-square&labelColor=EEF4FF)
 
 </div>
 
----
-
-## 📝 ¿Cómo participar?
-
-La vinculación de nuevos integrantes se abre **dos veces por semestre** (inicio y mitad del período académico). Los aspirantes diligencian un formulario de postulación donde manifiestan intereses, disponibilidad y habilidades. Cada candidato es evaluado por los líderes de proyecto y la coordinación según afinidad técnica, disponibilidad horaria y motivación.
-
-**Requisitos generales**
-- Ser estudiante activo de pregrado o posgrado de la Universidad Nacional de Colombia (sede Bogotá).
-- Tener disponibilidad mínima de 5 horas semanales.
-- Interés comprobado en bioingeniería, programación, electrónica o diseño mecánico.
-
-Para más información escribe a: **protosun_bog@unal.edu.co**
-
----
+Todos los repositorios incluyen **código fuente comentado**, **archivos CAD parametrizados**, **listas de materiales (BOM)**, **esquemáticos electrónicos** y **protocolos de prueba**.
 
 <div align="center">
-  <hr style="border: 1px solid #A78BFA; width: 100%;"/>
-  <sub>Hecho con ❤️ desde la Universidad Nacional de Colombia – Semillero PROTOS · Grupo KYMA</sub>
+<img src="https://raw.githubusercontent.com/Protsen-UN/assets/main/dividers/divider_signal.svg" width="100%"/>
+</div>
+
+## Únete a PROTOS
+
+El proceso de vinculación se abre **dos veces por semestre** — al inicio y a mitad del período académico. Buscamos estudiantes de ingeniería con interés en diseño mecánico, manufactura aditiva, electrónica de potencia, firmware o sensores biomédicos.
+
+📧 **[protosun_bog@unal.edu.co](mailto:protosun_bog@unal.edu.co)**
+
+<br/>
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/Protsen-UN/assets/main/footers/footer_light.svg" width="100%"/>
 </div>
